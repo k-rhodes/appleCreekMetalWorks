@@ -1,0 +1,87 @@
+main {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid green 1px;
+}
+
+.title {
+  font-size: 100px;
+  margin-bottom: 25px;
+  border: solid red 1px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid blue 1px;
+}
+
+nav div {
+  margin: 10px;
+  font-size: 160%;
+  border: solid black 1px;
+}
+
+.about {
+  margin: 30px;
+  border: solid red 1px;
+  font-size: 25px;
+}
+
+.about h1 {
+  font-size: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px;
+  border: solid purple 1px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  margin: 10px;
+  border: solid grey 1px;
+}
+
+.services h1 {
+  font-size: 40px;
+}
+
+.services div {
+  margin: 10px;
+  border: solid pink 1px;
+}
+
+.gallery section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:1px;
+  border: solid maroon 1px;
+}
+
+.pics {
+  margin: 15px;
+}
+
+.pics img {
+  width: 480px;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.contact {
+  margin: 10px;
+  font-size: 30px;
+}
