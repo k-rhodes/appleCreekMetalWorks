@@ -6,19 +6,20 @@ body {
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: grey;
     font-weight: 600;
     margin-bottom: 30px;
 }
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: lightgrey;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .jumbotron {
-    background-color: #f4511e;
+    background-image: url(../images/iron.jpg);
+    background-size: 100%;
     color: #fff;
     padding: 120px 25px;
     font-family: Montserrat, sans-serif;
@@ -27,7 +28,7 @@ h4 {
     padding: 60px 50px;
 }
 .bg-grey {
-    background-color: #f6f6f6;
+    background-color: black;
 }
 .logo-small {
     color: #f4511e;
@@ -98,7 +99,7 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: black;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
