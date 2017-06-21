@@ -22,8 +22,13 @@ h4 {
     background-size: 100%;
     color: #fff;
     padding: 120px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Crushed', cursive;
 }
+.jumbotron h1 {
+  font-size: 100px;
+  text-shadow: black 3px 4px;
+}
+
 .container-fluid {
     padding: 60px 50px;
 }
