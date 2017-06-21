@@ -97,6 +97,10 @@ h4 {
     background-color: rgb(25, 96, 131);
     color: #fff;
 }
+.fullStory {
+  color: rgb(25, 96, 131);
+  border: outset silver 8px;
+}
 .navbar {
     margin-bottom: 0;
     background-color: black;
