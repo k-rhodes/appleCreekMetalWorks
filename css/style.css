@@ -33,8 +33,13 @@ h4 {
     padding: 60px 50px;
 }
 .bg-grey {
-    background-color: black;
+    background-color: #E8E8E8;
 }
+
+.bg-white {
+    background-color: white;
+}
+
 .logo-small {
     color: rgb(25, 96, 131);
     font-size: 50px;
@@ -175,4 +180,63 @@ footer .glyphicon {
   .logo {
       font-size: 150px;
   }
+}
+
+.padding {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  /*width: 1600px;*/
+  height: 400px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #E8E8E8;
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+.frame {
+  text-align: center;
+}
+
+.gallery {
+  margin: auto;
+  margin-top: 0;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 320px;
+  box-shadow: 15px 15px 15px #C6C6C6;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery-image {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+.desc {
+  color: black;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+}
+
+.welcome {
+  align-self: center;
+  width: 50vh;
+  height: auto;
+  margin: auto;
+  box-shadow: 15px 15px 15px #C6C6C6;
 }

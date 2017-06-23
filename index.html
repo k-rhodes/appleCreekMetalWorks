@@ -11,9 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Crushed" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/script.js">
-
-    </script>
+    <script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/0359ec95b8.js"></script>
 
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -26,7 +25,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myPage">Logo</a>
+        
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -40,6 +39,7 @@
   </nav>
 
   <div class="jumbotron text-center">
+      <img class="logo" src="images/logo.jpg" alt="art">
     <h1>Apple Creek Metal Works</h1>
 
   </div>
@@ -53,25 +53,27 @@
         <p>My pieces are primarily made out of steel and are intended to rust, giving them a natural look that will beautify your land scape year round! I do not use any computerized machines to make the cuts, just me and a torch.<br><br> No two pieces are ever alike! Take a tour of my site and if you don't see something you like, send me an email with your idea and I will work to make it a reality. No job is to big or to small!</p>
 
       </div>
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-signal logo"></span>
+      <div class="col-sm-4 frame">
+        <span>
+          <img class="welcome slideanim" src="images/bio-working2.png" alt="work">
+        </span>
       </div>
     </div>
   </div>
 
   <div class="container-fluid bg-grey">
     <div class="row">
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      <div class="col-sm-4 frame">
+        <span>
+          <img class="welcome slideanim" src="images/Chris_Portrait.png" alt="work">
+        </span>
       </div>
       <div class="col-sm-8">
         <h2>Chis Hrabik</h2><br>
-        <h4><strong>MISSION:</strong>
-          Chris was a passenger in a truck that accidentally slid off the road and rolled over, leaving Chris with a broken neck. Chris was paralyzed and confined to a wheelchair. While he was in the hospital, a motivational speaker came to talk with him about adapting to a different kind of life as a quadriplegic in a wheelchair. Chris wasn’t happy with the kind of lifestyle the speaker talked about. He knew he wanted more from his life, even though he was in a wheelchair.<br> <br>
+        <h4>Chris was a passenger in a truck that accidentally slid off the road and rolled over, leaving Chris with a broken neck. Chris was paralyzed and confined to a wheelchair. While he was in the hospital, a motivational speaker came to talk with him about adapting to a different kind of life as a quadriplegic in a wheelchair. Chris wasn’t happy with the kind of lifestyle the speaker talked about. He knew he wanted more from his life, even though he was in a wheelchair.<br><br>
 
-          It has been a challenge for Chris to learn to do the metal cutting and welding in a wheelchair, with one good arm and only partial use of the other.  “Everything is pretty much one handed, but there are little tricks I have learned,” he said.
-          The list of new metal art items that Chris makes is growing every day.He said he can make just about anything if he sees a picture, or if someone has a good idea of what they want, he will try to make it.</h4><br>
-        <a href="http://www.thecash-book.com/Story.aspx?StoryID=1670" class="btn btn-default btn-lg fullStory" role="button"> Full Story</a>
+        It has been a challenge for Chris to learn to do the metal cutting and welding in a wheelchair, with one good arm and only partial use of the other. “Everything is pretty much one handed, but there are little tricks I have learned,” he said. The list of new metal art items that Chris makes is growing every day.He said he can make just about anything if he sees a picture, or if someone has a good idea of what they want, he will try to make it.</h4><br>
+        <a href="http://www.thecash-book.com/Story.aspx?StoryID=1670" class="btn btn-default btn-lg" role="button"> Full Story</a>
 
       </div>
     </div>
@@ -109,33 +111,35 @@
   <!-- Container (Portfolio Section) -->
   <div id="portfolio" class="container-fluid text-center bg-grey">
     <h2>GALLERY</h2><br>
-    <h4>What I have created</h4>
-    <div class="row text-center slideanim">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="paris.jpg" alt="Paris" width="400" height="300">
-          <p><strong>Paris</strong></p>
-          <p>Yes, we built Paris</p>
+    <h4>What we have created</h4>
+    <div class="padding">
+        <div class="gallery">
+          <a target="_blank" href="images/art-flower.jpg">
+            <img class="gallery-image" src="images/art-flower.jpg" alt="art">
+          </a>
+          <div class ="desc"><i class="fa fa-picture-o" aria-hidden="true"></i>Artworks
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
-          <p><strong>New York</strong></p>
-          <p>We built New York</p>
+
+        <div class="gallery">
+          <a target="_blank" href="custom-winerack2.jpg">
+            <img class="gallery-image" src="images/custom-winerack2.jpg" alt="Custom">
+          </a>
+          <div class ="desc"><i class="fa fa-picture-o" aria-hidden="true"></i>
+             Custom Products
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Yes, San Fran is ours</p>
+
+        <div class="gallery">
+          <a target="_blank" href="images/agriculture-fence.jpg">
+            <img class="gallery-image" src="images/agriculture-fence.jpg" alt="Agrilculture">
+          </a>
+          <div class ="desc"><i class="fa fa-picture-o" aria-hidden="true"></i>Agriculture </div>
         </div>
-      </div>
-    </div><br>
+      </div><br>
 
     <!-- Container (Contact Section) -->
-    <div id="contact" class="container-fluid bg-grey">
+    <div id="contact" class="container-fluid bg-white">
       <h2 class="text-center">CONTACT</h2>
       <div class="row">
         <div class="col-sm-5">
